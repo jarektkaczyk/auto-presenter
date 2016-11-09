@@ -2,7 +2,6 @@
 
 namespace Sofa\AutoPresenter;
 
-use ArrayAccess;
 use Illuminate\Support\Collection;
 use Illuminate\Contracts\Pagination\Paginator;
 

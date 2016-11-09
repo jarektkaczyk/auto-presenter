@@ -8,7 +8,7 @@ use Illuminate\Contracts\View\Factory;
  * This Provider registers a View Composer that will automatically
  * decorate Presentable models with appropriate Presenter class.
  */
-class PresentersServiceProvider extends \Illuminate\Support\ServiceProvider
+class ServiceProvider extends \Illuminate\Support\ServiceProvider
 {
     public function boot(Factory $view)
     {

@@ -4,7 +4,6 @@ namespace Sofa\AutoPresenter;
 
 use Illuminate\Support\Str;
 use Illuminate\Support\Collection;
-use Illuminate\Database\Eloquent\Model;
 use Illuminate\Contracts\Routing\UrlRoutable;
 
 class Presenter implements UrlRoutable
