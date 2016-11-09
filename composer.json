@@ -1,0 +1,31 @@
+{
+    "name": "sofa/auto-presenter",
+    "description": "Auto presenter for Laravel",
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/jarektkaczyk/auto-presenter/issues",
+        "source": "https://github.com/jarektkaczyk/auto-presenter"
+    },
+    "keywords": ["laravel"],
+    "authors": [
+        {
+            "name": "Jarek Tkaczyk",
+            "email": "jarek@softonsofa.com",
+            "homepage": "http://softonsofa.com/",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.4",
+        "illuminate/database": "5.3.*"
+    },
+    "require-dev": {
+
+    },
+    "autoload": {
+        "psr-4": {
+            "Sofa\\AutoPresenter\\": "src"
+        }
+    },
+    "minimum-stability": "stable"
+}
